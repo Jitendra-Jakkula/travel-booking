@@ -1,0 +1,38 @@
+{
+  "engines": {
+    "node": "22.11.0"
+  },
+  "name": "wanderlust",
+  "version": "1.0.0",
+  "description": "A travel and accommodation platform inspired by Airbnb, offering users a variety of unique stays and experiences worldwide. Explore iconic cities, serene mountain cabins, beachfront escapes, and more, with seamless browsing and booking functionality.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Om",
+  "license": "ISC",
+  "dependencies": {
+    "@mapbox/mapbox-gl-geocoder": "^5.0.3",
+    "@mapbox/mapbox-sdk": "^0.16.1",
+    "cloudinary": "^1.21.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^5.1.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "ejs-mate": "^4.0.0",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "joi": "^17.13.3",
+    "mapbox-gl": "^3.8.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.7.3",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^8.0.0",
+    "prettier": "^3.3.3"
+  }
+}
