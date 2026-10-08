@@ -25,32 +25,10 @@ Wanderlust is a full-stack web application inspired by Airbnb, designed to provi
 
 ---
 
-## 🌐 Live Demo  
-Check out the live application here: [Wanderlust Live App](https://wanderlust-p3e2.onrender.com)  
-
----
-
 ## 📂 Installation & Setup  
 Follow these steps to set up the project locally:  
 
 ### Prerequisites  
 Ensure you have the following installed:  
 - Node.js  
-- MongoDB  
-
-### Steps  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/kenzo0p/Wanderlust.git
-   cd Wanderlust
-   npm install
-   npm start (http://localhost:8080)
-   ```
-   
-2. Add .env file
-- CLOUD_NAME=your_cloudinary_cloud_name  
-CLOUD_API_KEY=your_cloudinary_api_key  
-CLOUD_API_SECRET=your_cloudinary_api_secret  
-MAP_TOKEN=your_mapbox_access_token  
-SECRET=your_session_secret (any of your choice e.g your name)
-ATLASDB_URL=your_mongodb_connection_uri
+- MongoDB 
